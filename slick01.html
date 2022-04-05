@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="slick01-css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="slick01-css/style02.css">
+</head>
+
+<body>
+  <div class="slide-area">
+    <div class="title">best item</div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="javascript:void(0)">
+            <img src="./slick01-img/1000000263_main_090.jpeg" alt="">
+          </a>
+          <div class="product-info">
+            <div class="name">[사은품증정]레드 산청 오 드 퍼퓸</div>
+            <div class="price">49,000원</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/1000000267_main_034.jpeg" alt="" />
+          <img src="./slick01-img/1000000267_main_034.jpeg" alt="">
+          </a>
+          <div class="product-info">
+            <div class="name">[사은품증정]레드 산청 오 드 퍼퓸</div>
+            <div class="price">49,000원</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <a href="javascript:void(0)">
+            <img src="./slick01-img/1000000268_main_083.jpeg" alt="">
+          </a>
+          <div class="product-info">
+            <div class="name">[사은품증정]레드 산청 오 드 퍼퓸</div>
+            <div class="price">49,000원</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <a href="javascript:void(0)">
+            <img src="./slick01-img/1000000269_main_085.jpeg" alt="">
+          </a>
+          <div class="product-info">
+            <div class="name">[사은품증정]레드 산청 오 드 퍼퓸</div>
+            <div class="price">49,000원</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      loop: true,
+      autoplay: true,
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

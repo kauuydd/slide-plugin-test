@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="swiper01-css/reset.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="swiper01-css/style.css">
+</head>
+
+<body>
+  <div class="slide-area">
+    <div class="title">best item</div>
+    <div class="slide-wrapper">
+      <div class="slide">
+        <a href="javascript:void(0)">
+          <img src="./swiper01-img/1000000263_main_090.jpeg" alt="" />
+        </a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)">
+          <img src="./swiper01-img/1000000268_main_083.jpeg" alt="" />
+        </a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)">
+          <img src="./swiper01-img/1000000269_main_085.jpeg" alt="" />
+        </a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)">
+          <img src="./swiper01-img/1000000269_main_085.jpeg" alt="" />
+        </a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)"><img src="./swiper01-img/1000000269_main_085.jpeg" alt="" /></a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)::"><img src="./swiper01-img/1000000263_main_090.jpeg" alt="" /></a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)"><img src="./swiper01-img/1000000268_main_083.jpeg" alt="" /></a>
+        <div class="product-info">
+          <a href="" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="javascript:void(0)"><img src="./swiper01-img/1000000399_main_038.jpeg" alt="" /></a>
+        <div class="product-info">
+          <a href="javascript:void(0)" class="name">[사은품증정] 포레스트 산청 오 드 퍼퓸 27ml</a>
+          <div class="price">79,000원</div>
+        </div>
+      </div>
+    </div>
+    <div class="pager">
+      <div class="prev">
+        <span class="arrow"></span>
+      </div>
+      <div class="next">
+        <span class="arrow"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".slide-wrapper").slick({
+        slidesToShow: 4,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+      });
+    });
+  </script>
+</body>
+
+</html>

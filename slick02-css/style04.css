@@ -1,0 +1,122 @@
+.slide-area {
+  position: relative;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.slide-area .slide-title {
+  margin: 0 0 20px 0;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.slide {
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  border-radius: 20px;
+}
+
+.slide-wrapper {
+  margin: 0 -10px;
+}
+
+.slide {
+  margin: 0 10px;
+}
+/* product-info */
+.product-info {
+  padding: 15px;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.price-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 10px 0 30px 0;
+}
+
+.dc-price {
+  font-size: 20px;
+  color: red;
+}
+
+.nondc-price {
+  font-size: 18px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.mileage {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.review-box {
+  display: flex;
+  margin: 10px 0;
+}
+
+.review-num {
+  font-size: 13px;
+}
+
+.product-desc {
+  padding: 10px 0 0 0;
+  border-top: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.pager {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.prev,
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow {
+  display: inline-block;
+  padding: 3px;
+  border: solid grey;
+  border-width: 0 2px 2px 0;
+}
+
+.prev .arrow {
+  transform: rotate(135deg);
+}
+
+.next .arrow {
+  transform: rotate(-45deg);
+}
+
+.paging-info {
+  width: 44px;
+  text-align: center;
+}
+
+.total_page {
+  color: grey;
+}
